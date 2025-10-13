@@ -1,0 +1,8 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small component styles */
+body { background: #f8fafc; }
+.card { @apply bg-white rounded-lg shadow-sm p-4; }
